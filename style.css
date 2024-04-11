@@ -72,7 +72,7 @@ color: white;
     display: flex;
     gap: 120px;
     padding-left: 100px;
-    border: 1px solid black;
+    border: 1px solid ;
     border-radius: 0px 0px 20px 20px;
     padding-bottom:50px ;
     width: 1050px;
@@ -126,5 +126,30 @@ color: white;
       background-color: white;
    }
   
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width:820px){
+
+   #navbar-right{
+      display: flex;
+      gap: 15px;
+      padding-top: 15px;
+   }
+  
+   #navbar-left{
+      display: flex;
+      gap: 15px;
+      padding-top: 15px;
+   }
+  
+   #navbar{
+      display: flex;
+      gap: 50px;
+   }
+
+
+
+
 
  }
