@@ -1,3 +1,119 @@
+ 
+ 
+ 
+ 
+ #signUp-button{
+
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 10px 20px;
+   background-color: black;
+   color: white;
+    }
+   
+    .links:hover{
+      background-color: white;
+      text-decoration: none;
+      color: black;
+      border: 1px solid white;
+      padding: 5px;
+       }
+   
+   
+    .links{
+   text-decoration: none;
+   color: black;
+   
+    }
+   
+   .navbar-search{
+       border: 1px solid black;
+       border-radius: 20px;
+       padding: 5px 100px 5px 5px;
+       background-color: pink;
+    }
+   
+    #navbar-right{
+       display: flex;
+       gap: 40px;
+       padding-top: 15px;
+    }
+   
+    #navbar-left{
+       display: flex;
+       gap: 40px;
+       padding-top: 15px;
+    }
+   
+    #navbar{
+       display: flex;
+       gap: 300px;
+    }
+   
+    #search-icon{
+       width: 20px;
+       height: 20px;
+    }
+   
+    #arrow{
+       width: 20px;
+       height: 20px;
+    }
+   
+    #baims-logo{
+       font-size: 30px;
+    }
+   
+   
+    .body-search{
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 5px 100px 5px 5px;
+      background-color: white;
+   }
+   
+    #body{
+       display: flex;
+       gap: 300px;
+       padding-top: 80px;
+    }
+   
+    #heading-body{
+       font-size: 60px;
+    }
+
+    #body_sentence{
+      font-size: 20px;
+    }
+   
+    #student{
+       width: 800px;
+       height: 500px;
+    }
+   
+    #footer{
+       display: flex;
+       gap: 350px;
+       padding-left: 100px;
+       border: 1px solid ;
+       border-radius: 0px 0px 20px 20px;
+       padding-bottom:50px ;
+       width: 1625px;
+       background-color: white;
+    }
+   
+    #page-body{
+       border: 1px solid black;
+       background-color: pink;
+       padding: 25px;
+       width: 1600px;
+       border-radius: 50px 50px 0px 0px;
+       padding-left: 100px;
+    }
+
+ 
+    @media only screen and (max-width: 1280px){
+ 
  #signUp-button{
 
 border: 1px solid black;
@@ -7,10 +123,26 @@ background-color: black;
 color: white;
  }
 
- #navbar-search{
+ .links:hover{
+   background-color: white;
+   text-decoration: none;
+   color: black;
+   border: 1px solid white;
+   padding: 5px;
+    }
+
+
+ .links{
+text-decoration: none;
+color: black;
+
+ }
+
+.navbar-search{
     border: 1px solid black;
     border-radius: 20px;
     padding: 5px 100px 5px 5px;
+    background-color: pink;
  }
 
  #navbar-right{
@@ -44,14 +176,13 @@ color: white;
     font-size: 30px;
  }
 
- #body-search{
-    border: 1px solid black;
-    background-color: white;
-    border-radius: 20px;
-    padding:10px;
-    color: black;
 
- }
+ .body-search{
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 5px 100px 5px 5px;
+   background-color: white;
+}
 
  #body{
     display: flex;
@@ -85,9 +216,11 @@ color: white;
     padding: 25px;
     width: 1100px;
     border-radius: 50px 50px 0px 0px;
- }
 
- @media only screen and (max-width: 1024px){
+ }
+}
+
+ @media only screen and (min-width: 912px) and (max-width: 1024px){
 
     #navbar-right{
         display: flex;
@@ -103,32 +236,47 @@ color: white;
     
      #navbar{
         display: flex;
-        gap: 50px;
+        gap: 20px;
      }
+
+     #student{
+      width: 450px;
+      height: 300px;
+   }
+  
+   #baims-logo{
+      font-size: 25px;
+   }
 
      #page-body{
       border: 1px solid black;
       background-color: pink;
       padding: 25px;
-      width: 950px;
+      width: 830px;
       border-radius: 50px 50px 0px 0px;
    }
 
 
    #footer{
       display: flex;
-      gap: 120px;
+      gap: 100px;
       padding-left: 100px;
       border: 1px solid black;
       border-radius: 0px 0px 20px 20px;
       padding-bottom:50px ;
-      width: 900px;
-      background-color: white;
+      width: 780px;
+   }
+  
+   #body{
+      display: flex;
+      gap: 50px;
+      padding-top: 80px;
    }
   
 
  }
 
+ 
  @media only screen and (min-width: 768px) and (max-width:820px){
 
    #navbar-right{
@@ -144,12 +292,356 @@ color: white;
    }
   
    #navbar{
-      display: flex;
-      gap: 50px;
+      /* display: flex; */
+      gap: 10px;
+   }
+
+   .navbar-search{
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 5px 30px 5px 5px;
+   }
+  
+
+   #page-body{
+      background-color: pink;
+      width: 750px;
    }
 
 
+   #body{
+      display: flex;
+      gap: 20px;
+      padding-top: 80px;
+   }
+
+   #student{
+      width: 500px;
+      height: 300px;
+   }
+  
+   .body-search{
+      border: 1px solid black;
+      background-color: white;
+      border-radius: 20px;
+      padding:10px;
+      width: 250px;
+      color: black;
+  
+   }
+  
+   #body_sentence{
+      font-size: 13px;
+   }
 
 
+   #footer{
+      display: flex;
+      gap: 80px;
+      padding-left: 50px;
+      width: 750px;
+ 
+   }
+  
 
  }
+
+ @media only screen  and (min-width: 300px)and (max-width:414px){
+
+   #navbar-right{
+      display: flex;
+      gap: 10px;
+      padding-top: 15px;
+   }
+  
+   #navbar-left{
+      display: flex;
+      gap: 10px;
+      padding-top: 15px;
+   }
+  
+   #navbar{
+      display: flex;
+      gap: 10px;
+   }
+
+   #baims-logo{
+      font-size: 10px;
+   }
+
+   .links{
+      text-decoration: none;
+      color: black;
+      font-size: 10px;
+       }
+     
+       #search-icon{
+         width: 10px;
+         height: 10px;
+      }
+
+      .navbar-search{
+         border: 1px solid black;
+         border-radius: 20px;
+         padding: 5px;
+width: 180px;
+      }
+
+      #heading-body{
+
+         font-size: 35px;
+      }
+      
+      #signUp-button{
+
+         border: 1px solid black;
+         border-radius: 20px;
+         padding: 5px 10px;
+         background-color: black;
+         color: white;
+         font-size: 10px;
+          }
+         
+          #body{
+            gap: 50px;
+            padding-top: 80px;
+         }
+        
+         #body_sentence{
+            font-size: 10px;
+            padding-bottom: 10px;
+         }
+
+         .body-search{
+            border-radius: 20px;
+            padding:5px;
+            width: 230px;
+        
+         }
+
+         #body{
+           flex-direction: column;
+            gap: 50px;
+            padding-top: 80px;
+         }
+
+         #student{
+            width: 330px;
+            height: 300px;
+         }
+
+
+ #footer{
+   flex-direction: column;
+   gap: 20px;
+   padding-left: 100px;
+   border: 1px solid ;
+   border-radius: 0px 0px 20px 20px;
+   padding-bottom:10px ;
+   width: 250px;
+   background-color: white;
+}
+
+#navbar{
+   flex-direction: column;
+   gap: 10px;
+}  
+        
+#page-body{
+   border: 1px solid black;
+   background-color: pink;
+   padding: 25px;
+   width: 300px;
+   border-radius: 50px 50px 0px 0px;
+}
+       
+ }
+
+
+ @media only screen  and (min-width: 430px)and (max-width:540px){
+
+
+   #signUp-button{
+font-size: 10px;
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+       }
+      
+       .navbar-search{
+          border: 1px solid black;
+          border-radius: 20px;
+          padding:5px 25px 5px 5px;
+          background-color: white;
+       }
+      
+       #navbar-right{
+          display: flex;
+          gap: 15px;
+          padding-top: 15px;
+       }
+      
+       #navbar-left{
+          display: flex;
+          gap: 5px;
+          padding-top: 15px;
+       }
+      
+       #navbar{
+         flex-direction: column;
+          gap: 10px;
+       }
+
+       #body_sentence{
+         font-size: 13px;
+      }
+      
+      .body-search{
+         border-radius: 20px;
+         padding:5px;
+         width: 250px;
+     
+      }
+
+      #body{
+         flex-direction: column;
+          gap: 50px;
+          padding-top: 80px;
+       }
+
+       #student{
+         width: 420px;
+         height: 350px;
+      }
+
+      #page-body{
+         border: 1px solid black;
+         background-color: pink;
+         padding: 20px;
+         width: 350px;
+         border-radius: 50px 50px 0px 0px;
+      }
+
+      #footer{
+         flex-direction: column;
+         gap: 20px;
+         padding-left: 100px;
+         border: 1px solid ;
+         border-radius: 0px 0px 20px 20px;
+         padding-bottom:10px ;
+         width: 290px;
+         background-color: white;
+      }
+
+ }
+
+ @media only screen  and (max-width: 280px){
+
+   #navbar-right{
+      display: flex;
+      gap: 10px;
+      padding-top: 15px;
+   }
+  
+   #navbar-left{
+      display: flex;
+      gap: 10px;
+      padding-top: 15px;
+   }
+  
+   #navbar{
+   flex-direction: column;
+      gap: 2px;
+   }
+
+   #baims-logo{
+      font-size: 10px;
+   }
+
+   .links{
+      text-decoration: none;
+      color: black;
+      font-size: 10px;
+       }
+     
+       #search-icon{
+         width: 10px;
+         height: 10px;
+      }
+
+      .navbar-search{
+         border: 1px solid black;
+         border-radius: 20px;
+         padding: 2px;
+width: 120px;
+      }
+
+      #heading-body{
+
+         font-size: 25px;
+      }
+      
+      #signUp-button{
+
+         border: 1px solid black;
+         border-radius: 20px;
+         padding: 5px 10px;
+         background-color: black;
+         color: white;
+         font-size: 10px;
+          }
+        
+         #body_sentence{
+            font-size: 8px;
+            padding-bottom: 10px;
+         }
+
+         .body-search{
+            border-radius: 20px;
+            padding:5px;
+            width: 150px;
+        
+         }
+
+         #body{
+           flex-direction: column;
+            gap: 50px;
+            padding-top: 80px;
+         }
+
+         #student{
+            width: 230px;
+            height: 200px;
+         }
+
+
+         #footer{
+            flex-direction: column;
+            gap: 20px;
+            padding-left: 90px;
+            border: 1px solid ;
+            border-radius: 0px 0px 20px 20px;
+            padding-bottom:10px ;
+            width: 160px;
+            background-color: white;
+         }
+         
+         #navbar{
+            flex-direction: column;
+            gap: 10px;
+         }  
+                 
+         #page-body{
+            border: 1px solid black;
+            background-color: pink;
+            padding: 25px;
+            width: 200px;
+            border-radius: 50px 50px 0px 0px;
+         }
+                
+          }
+         
+
+ 
